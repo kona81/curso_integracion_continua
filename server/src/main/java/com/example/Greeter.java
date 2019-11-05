@@ -4,8 +4,7 @@ package com.example;
  * This is a class.
  */
 public class Greeter {
-  
-  public Long MAGICO = new Long("2333");
+   public Long MAGICO = new Long("2333");
 
   /**
    * This is a constructor.
@@ -23,7 +22,6 @@ public class Greeter {
         return String.format("Hello, %s!", someone);
     }else{
         return String.format("Hello, %s!", someone);
-    }
-    
+    }    
   }
 }
